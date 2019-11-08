@@ -7,6 +7,7 @@ import net.ausiasmarch.service.ProductoService;
 import net.ausiasmarch.service.TipoUsuarioService;
 import net.ausiasmarch.service.UsuarioService;
 import net.ausiasmarch.service.FacturaService;
+import net.ausiasmarch.service.TipoProductoService;
 
 public class ServiceCall {
 
@@ -176,6 +177,33 @@ public class ServiceCall {
                     break;
                 case "insert":
                     strResult = oTipoUsuarioService.insert();
+                    break;
+             
+            }
+        }
+          if (ob.equalsIgnoreCase("tipo_producto")) {
+            TipoProductoService oTipoProductoService = new TipoProductoService(oRequest);
+            switch (op) {
+                case "get":
+                    strResult = oTipoProductoService.get();
+                    break;
+                case "getcount":
+                    strResult = oTipoProductoService.getCount();
+                    break;
+                case "getpage":
+                    strResult = oTipoProductoService.getPage();
+                    break;
+                case "update":
+                    strResult = oTipoProductoService.update();
+                    break;
+                case "remove":
+                    strResult = oTipoProductoService.remove();
+                    break;
+                case "getall":
+                    //strResult = oPostService.getAll();
+                    break;
+                case "insert":
+                    strResult = oTipoProductoService.insert();
                     break;
              
             }

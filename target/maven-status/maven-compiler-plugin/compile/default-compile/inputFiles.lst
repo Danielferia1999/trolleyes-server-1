@@ -1,4 +1,5 @@
 /datos/usuarios/alumnos/a033570312h/NetBeansProjects/trolleyes-server/src/main/java/net/ausiasmarch/factory/ServiceCall.java
+/datos/usuarios/alumnos/a033570312h/NetBeansProjects/trolleyes-server/src/main/java/net/ausiasmarch/dao/TipoUsuarioDao.java
 /datos/usuarios/alumnos/a033570312h/NetBeansProjects/trolleyes-server/src/main/java/net/ausiasmarch/connection/implementation/C3P0ConnectionImplementation.java
 /datos/usuarios/alumnos/a033570312h/NetBeansProjects/trolleyes-server/src/main/java/net/ausiasmarch/bean/ProductoBean.java
 /datos/usuarios/alumnos/a033570312h/NetBeansProjects/trolleyes-server/src/main/java/net/ausiasmarch/connection/ConnectionInterface.java
@@ -6,10 +7,12 @@
 /datos/usuarios/alumnos/a033570312h/NetBeansProjects/trolleyes-server/src/main/java/net/ausiasmarch/dao/CompraDao.java
 /datos/usuarios/alumnos/a033570312h/NetBeansProjects/trolleyes-server/src/main/java/net/ausiasmarch/service/CarritoService.java
 /datos/usuarios/alumnos/a033570312h/NetBeansProjects/trolleyes-server/src/main/java/net/ausiasmarch/service/CompraService.java
+/datos/usuarios/alumnos/a033570312h/NetBeansProjects/trolleyes-server/src/main/java/net/ausiasmarch/service/TipoUsuarioService.java
 /datos/usuarios/alumnos/a033570312h/NetBeansProjects/trolleyes-server/src/main/java/net/ausiasmarch/bean/ResponseBean.java
 /datos/usuarios/alumnos/a033570312h/NetBeansProjects/trolleyes-server/src/main/java/net/ausiasmarch/connection/implementation/DBCPConnectionImplementation.java
 /datos/usuarios/alumnos/a033570312h/NetBeansProjects/trolleyes-server/src/main/java/net/ausiasmarch/service/ProductoService.java
 /datos/usuarios/alumnos/a033570312h/NetBeansProjects/trolleyes-server/src/main/java/net/ausiasmarch/dao/ProductoDao.java
+/datos/usuarios/alumnos/a033570312h/NetBeansProjects/trolleyes-server/src/main/java/net/ausiasmarch/bean/TipoUsuarioBean.java
 /datos/usuarios/alumnos/a033570312h/NetBeansProjects/trolleyes-server/src/main/java/net/ausiasmarch/setting/ConfigurationSettings.java
 /datos/usuarios/alumnos/a033570312h/NetBeansProjects/trolleyes-server/src/main/java/net/ausiasmarch/connection/implementation/HikariConnectionImplementation.java
 /datos/usuarios/alumnos/a033570312h/NetBeansProjects/trolleyes-server/src/main/java/net/ausiasmarch/connection/ConnectionFactory.java

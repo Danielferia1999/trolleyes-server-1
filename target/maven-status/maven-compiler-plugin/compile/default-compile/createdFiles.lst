@@ -22,8 +22,10 @@ net/ausiasmarch/setting/ConnectionSettings.class
 net/ausiasmarch/bean/ResponseBean.class
 net/ausiasmarch/controller/Json.class
 net/ausiasmarch/setting/ConfigurationSettings.class
+net/ausiasmarch/bean/TipoUsuarioBean.class
 net/ausiasmarch/connection/implementation/ViburConnectionImplementation.class
 net/ausiasmarch/setting/ConnectionSettings$EnumConstans.class
+net/ausiasmarch/service/TipoUsuarioService.class
 net/ausiasmarch/service/ProductoService.class
 net/ausiasmarch/service/CarritoService.class
 net/ausiasmarch/dao/ProductoDao.class
@@ -32,5 +34,6 @@ net/ausiasmarch/service/FacturaService.class
 net/ausiasmarch/connection/ConnectionFactory.class
 net/ausiasmarch/connection/implementation/HikariConnectionImplementation.class
 net/ausiasmarch/bean/ItemBean.class
+net/ausiasmarch/dao/TipoUsuarioDao.class
 net/ausiasmarch/connection/BoneCPImplementation.class
 net/ausiasmarch/connection/ConnectionSettings.class

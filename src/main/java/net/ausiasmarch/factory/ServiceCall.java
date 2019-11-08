@@ -4,6 +4,7 @@ import javax.servlet.http.HttpServletRequest;
 import net.ausiasmarch.service.CarritoService;
 import net.ausiasmarch.service.CompraService;
 import net.ausiasmarch.service.ProductoService;
+import net.ausiasmarch.service.TipoUsuarioService;
 import net.ausiasmarch.service.UsuarioService;
 import net.ausiasmarch.service.FacturaService;
 
@@ -151,6 +152,33 @@ public class ServiceCall {
                     strResult = oCompraService.getCount();
                     break;
         }
+        }
+         if (ob.equalsIgnoreCase("tipo_usuario")) {
+            TipoUsuarioService oTipoUsuarioService = new TipoUsuarioService(oRequest);
+            switch (op) {
+                case "get":
+                    strResult = oTipoUsuarioService.get();
+                    break;
+                case "getcount":
+                    strResult = oTipoUsuarioService.getCount();
+                    break;
+                case "getpage":
+                    strResult = oTipoUsuarioService.getPage();
+                    break;
+                case "update":
+                    strResult = oTipoUsuarioService.update();
+                    break;
+                case "remove":
+                    strResult = oTipoUsuarioService.remove();
+                    break;
+                case "getall":
+                    //strResult = oPostService.getAll();
+                    break;
+                case "insert":
+                    strResult = oTipoUsuarioService.insert();
+                    break;
+             
+            }
         }
         return strResult;
     }
